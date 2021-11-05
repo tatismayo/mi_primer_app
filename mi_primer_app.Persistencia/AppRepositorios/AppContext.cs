@@ -1,23 +1,25 @@
 using Microsoft.EntityFrameworkCore;
-using mi_primer_app.Dominio;
+using MiprimeraApp.Dominio;
 
-namespace mi_primer_app.Persistencia.AppRepositorios
+namespace MiprimeraApp.Persistencia
 {
     public class AppContext : DbContext
     {
-        public Dbset<Persona> Personas {get; set;}
-
-        public Dbset<Paciente> Pacientes {get; set;}
-
-        public Dbset<Medico> Medicos {get; set;}
-
-        public Dbset<SignoVital> SignosVitales {get; set;}
+        public DbSet<Persona> Personas {get; set;}
+        public DbSet<Paciente> Pacientes {get; set;}
+        public DbSet<Medico> Medicos {get; set;}
+        public DbSet<SignoVital> SignosVitales {get; set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if ( !optionsBuilder.IsConfigured)
+            if(!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Initial Catalog=Hospital2207208; Data Source= LAPTOP-N5N4CBFB\SQLEXPRESS; Integrated Security:true");
+                optionsBuilder.UseSqlServer("Initial Catalog=Hospital2207208; Data Source=HOMELUNA; Integrated Security=true");
+                        /*
+                        initial catalog: nombre de la base de datos
+                        data source: nombre del servidor de la base de datos
+                        integrated security: seguridad con la misma configuracion del inicio de sesion
+                        */
             }
         }
     }
