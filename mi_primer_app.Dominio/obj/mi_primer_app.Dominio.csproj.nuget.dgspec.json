@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Front_Developer\\ejercicio_sena2021\\mi_primer_app.Dominio\\mi_primer_app.Dominio.csproj": {}
+    "C:\\Users\\USUARIO\\Ejercicio_Sena_2021\\Miprimerproyecto\\MiprimeraApp\\MiprimeraApp.Dominio\\MiprimeraApp.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Front_Developer\\ejercicio_sena2021\\mi_primer_app.Dominio\\mi_primer_app.Dominio.csproj": {
+    "C:\\Users\\USUARIO\\Ejercicio_Sena_2021\\Miprimerproyecto\\MiprimeraApp\\MiprimeraApp.Dominio\\MiprimeraApp.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Front_Developer\\ejercicio_sena2021\\mi_primer_app.Dominio\\mi_primer_app.Dominio.csproj",
-        "projectName": "mi_primer_app.Dominio",
-        "projectPath": "C:\\Users\\Front_Developer\\ejercicio_sena2021\\mi_primer_app.Dominio\\mi_primer_app.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Front_Developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Front_Developer\\ejercicio_sena2021\\mi_primer_app.Dominio\\obj\\",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Ejercicio_Sena_2021\\Miprimerproyecto\\MiprimeraApp\\MiprimeraApp.Dominio\\MiprimeraApp.Dominio.csproj",
+        "projectName": "MiprimeraApp.Dominio",
+        "projectPath": "C:\\Users\\USUARIO\\Ejercicio_Sena_2021\\Miprimerproyecto\\MiprimeraApp\\MiprimeraApp.Dominio\\MiprimeraApp.Dominio.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\Ejercicio_Sena_2021\\Miprimerproyecto\\MiprimeraApp\\MiprimeraApp.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Front_Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
