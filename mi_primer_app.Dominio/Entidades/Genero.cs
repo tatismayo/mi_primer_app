@@ -1,4 +1,5 @@
 namespace mi_primer_app.Dominio
+/// <summary>
 
 public enum Genero
 
@@ -9,3 +10,5 @@ Bisexual,
 Transexual,
 
 }
+
+public int 
