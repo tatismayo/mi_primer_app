@@ -12,5 +12,6 @@ namespace mi_primer_app.Dominio
         public DataTime FechaNacimiento {get;set}
 
         public Medico Medico {get;set}
+        public List<SignoVital> SignosVitales{get;set;}
     }
 }
