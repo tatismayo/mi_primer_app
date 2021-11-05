@@ -1,12 +1,12 @@
-using System;
-namespace mi_primer_app.Dominio
+namespace MiprimeraApp.Dominio
 {
-
-    ///<summary> class <c> Medico </c>
-    /// Modela un medico del equipo 
-public class Medico : Persona 
-
-public String Especialidad  {get;set}
-
-public String Especialidad  {get;set}
+    /// <summary> Class <c> Medico </c>
+    /// Modela un medico del equipo
+    /// </summary>
+    public class Medico : Persona
+    {
+        public string Especialidad {get; set;}
+        public string Codigo {get; set;}
+        public string RegistroRethus {get; set;}
+    }
 }

@@ -1,19 +1,14 @@
-namespace mi_primer_app.Dominio
+namespace MiprimeraApp.Dominio
 {
-
     ///<summary>
-    /// LISTA DE SIGNOS VITALES
-    ///<sumary
+    ///lista de signos vitales
+    ///</summary>
     public enum TipoSigno
     {
         TensionArterial,
-
         FrecuenciaCardiaca,
-
         FrecuenciaRespiratoria,
-
-        SaturacionOxigeno,
-
-        TemperaturaCorporal,
+        SatuacionOxigeno,
+        TemperaturaCorporal
     }
 }

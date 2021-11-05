@@ -1,14 +1,16 @@
-namespace mi_primer_app.Dominio
-/// <summary>
-
-public enum Genero
-
+namespace MiprimeraApp.Dominio
 {
-Masculino,
-Femenino,
-Bisexual,
-Transexual,
-
+    /// <summary>
+    /// Lista de Generos
+    /// </symmary>
+    public enum Genero
+    {
+        Masculino,
+        Femenino,
+        Bisexual,
+        Intersexual,
+        Pansexual,
+        Transexual 
+        
+    }
 }
-
-public int 

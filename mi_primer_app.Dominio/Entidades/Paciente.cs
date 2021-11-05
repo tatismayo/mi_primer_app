@@ -1,17 +1,15 @@
-using System.Security.Cryptography.X509Certificates;
 using System;
 using System.Collections.Generic;
 
-namespace mi_primer_app.Dominio
+namespace MiprimeraApp.Dominio
 {
     public class Paciente : Persona
     {
-        public string Direccion {get;set}
-        public string Ciudad  {get;set}
+        public string Direccion {get; set;}
+        public string Ciudad {get; set;}
+        public DateTime FechaNacimiento {get; set;}
+        public Medico Medico {get; set;}
+        public List<SignoVital> SignoVitales {get; set;}
 
-        public DataTime FechaNacimiento {get;set}
-
-        public Medico Medico {get;set}
-        public List<SignoVital> SignosVitales{get;set;}
     }
 }
